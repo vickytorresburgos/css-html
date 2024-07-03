@@ -1,0 +1,55 @@
+/* div{
+    width: 150px;
+    height: 150px;
+    background:yellow;
+    border-radius: 50%;
+    transition: all 2s;
+    background: cornflowerblue;
+    transition: all 1s;
+}
+
+#transicion{
+    transition-timing-function: ease; ease: inicia lento, despues rapido y termina lento, linear: siempre misma velocidad
+}
+
+div:hover{
+    width: 450px;
+
+}
+div:hover{
+    width: 300px;
+    background-color: blue;
+} */ 
+
+#transicion{
+    background: coral;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    animation: mover 5s infinite;
+    animation-delay: 1000ms; 
+}
+
+@keyframes mover{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(200px);
+        /* width: 300px;
+        height: 300px;
+        border-radius: 50%; */
+        background: linear-gradient(120deg, orange 0%, red 100%);
+
+    }
+    50%{
+        transform: translateY(200px) translateX(200px);
+        background:linear-gradient(to top,blue 0%,darkblue 100%);
+    }
+    75%{
+        transform: translateX(0px) translateY(200px);
+        background:linear-gradient(to top,orange 0%,black 100%);
+       
+    }
+
+}

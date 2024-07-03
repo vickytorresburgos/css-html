@@ -1,0 +1,19 @@
+/* ep 3  */
+
+#fondo1{
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 280px;   
+    /* Valores(top,right,bottom,left,center) */
+    /* background(ruta)(posicion)(dimension) no-repeat */
+    background: url(gato.png) top left / 80px no-repeat; 
+    background: url(balon.jpg) top / 100px no-repeat; 
+    background: url(balon2.jpg); /*center / 100px no-repeat;*/
+    background-size: contain; 
+    background: url(plato.png) center/180px no-repeat, 
+    url(mesa.jpg) center/cover no-repeat;
+    font-size: 24px;
+    background-color: mediumspringgreen;
+    background-clip: content-box;
+}

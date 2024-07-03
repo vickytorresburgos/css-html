@@ -1,0 +1,9 @@
+#degradado{
+    border: 2px solid black;
+    width: 480px;
+    height: 480px;
+    background: radial-gradient(yellow,green);
+    background: radial-gradient(circle at top right,yellow,orange);
+    background: repeating-radial-gradient(circle, blue,cyan 15%); 
+    background: repeating-linear-gradient(90deg,yellow,yellow 10px,red 10px, red 20px);
+} 

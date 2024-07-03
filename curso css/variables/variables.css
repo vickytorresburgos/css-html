@@ -1,0 +1,41 @@
+/* div{
+    text-align: center;
+    background: red;
+}
+
+h1{
+    color: var(--titulo-color); variable local
+}
+
+h2{
+    color: green;
+}
+
+:root{
+    --titulo-color:yellow; variable global
+
+} */
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 300px;
+    font-size: 30px;
+}
+
+.cursos{
+    --cursos-color:red;
+    --cursos-fondo:yellow;
+}
+
+.css{
+    display: inline-block;
+    border: 3px solid black;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.css:hover{
+    background:var(--cursos-fondo);
+    color: var(--cursos-color);
+}
+

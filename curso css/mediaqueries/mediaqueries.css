@@ -1,0 +1,56 @@
+/* div{
+    background-color: darkblue;
+    padding: 10px;
+}
+
+.texto{
+    color:white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:480px){
+    div{
+        background-color: red;
+    }
+} */
+
+#contenedor{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#columna-izq{
+    width: 700px;
+    float: left;
+    background: green;
+}
+
+#columna-der{
+    width: 260px;
+    float: left;
+    background: coral;
+}
+
+@media screen and (max-width:959px){   /*mientras que el ancho sea 959px, el contenedor va a ocupar el 100% del ancho de la pantalla, la columna izquierda va a ocupar el 70%, la derecha el 30% y l imagen el 100%*/
+    #contenedor{
+        width: 100%;
+    }
+    #columna-izq{
+        width: 70%;
+    }
+    #columna-der{
+        width: 30%;
+    }
+    img{
+        width:100% ;
+    }
+}
+
+@media screen and (max-width:840px) {  /*mientras que el ancho sea 840px, la columna izquierda va a ocupar el 100% y la derecha el 100% */
+    #columna-izq{
+        width: 100%;
+    }
+    #columna-der{
+        width: 100%;
+    }
+}
